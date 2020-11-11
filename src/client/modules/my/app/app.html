@@ -1,0 +1,29 @@
+<template>
+    <header>
+        <my-navigation is-logged-user={loggedUser} is-dreamforce={dreamforce}></my-navigation>        
+    </header>
+    <main class="content">
+        <template if:true={isLoggedInView}>
+            <div class="slds-grid slds-p-top_medium">
+                <div class="slds-col slds-size_2-of-3">
+                    <my-customer-feed></my-customer-feed>
+                </div>
+                <div class="slds-col slds-size_1-of-3 slds-p-right_xx-small">
+                    <my-events onjoinevent={hanldeJoinEvent}></my-events>
+                </div>
+            </div>
+            <div class="slds-grid">
+                <div class="slds-col">
+                    <my-micro-frontend></my-micro-frontend>
+                </div>
+            </div>
+        </template>
+        <template if:true={isLoginView}>
+            <my-login-view></my-login-view>
+        </template>
+        <template if:true={isSessionListView}>
+            <my-video-player></my-video-player>
+            <my-session-list></my-session-list>
+        </template>
+    </main>
+</template>

@@ -1,0 +1,13 @@
+.playerTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #032d60;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.player {
+    width: 952px;
+    height: 624px;
+    margin-bottom: 15px;
+}

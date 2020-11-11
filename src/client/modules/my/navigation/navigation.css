@@ -1,0 +1,56 @@
+.logo {
+    height: 3.5rem;
+}
+.logo-image {
+    height: 3rem;
+    margin-right: 0.3rem;
+}
+
+.dreamforce-image {
+    height: 3.3rem;
+    margin-right: 0.3rem;
+}
+
+.welcome-display {
+    padding-left: 250px;
+    padding-top: 13px;
+}
+
+.user-display-name {
+    font-size: .8rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #032d60;
+}
+
+.brand-button {
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    transition: border 0.15s linear;
+    background-color: #0288d1;
+    color: #fff;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-clip: border-box;
+    border: 1px solid #0288d1;
+    border-radius: 0.25rem;
+    line-height: 1.75rem;
+    -webkit-appearance: none;
+    white-space: normal;
+    user-select: none;
+    margin-left: 15px;
+}
+
+.brand-button:hover {
+    background-color: #032d60;
+}
+
+.title {
+    font-weight: bold;
+    color: #032d60;
+}
